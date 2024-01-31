@@ -1,0 +1,144 @@
+repo_name: landofthelotophagi/DO180-apps
+report_id: 92f1e9eea24fd800958b6fde7ab01636
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T09:43:56+00:00'
+requested_by: someth2say
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: '4.20'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps/blob/master/nodejs-app/package.json
+  detection_source: nodejs-app/package.json
+  last_updated_by: Jordi Sola
+  last_updated_on: 2019-10-04 11:04:03.000000000 Z
+- name: Restify
+  description: node.js REST framework specifically meant for web service APIs
+  website_url: http://restify.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/2260/AUuZro2V_400x400.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps/blob/master/todoapp/nodejs/package.json
+  detection_source: todoapp/nodejs/package.json
+  last_updated_by: Jordi Sola
+  last_updated_on: 2019-10-04 11:04:03.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  version: 2.9.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps/blob/master/todoapp/nodejs/package.json
+  detection_source: todoapp/nodejs/package.json
+  last_updated_by: Jordi Sola
+  last_updated_on: 2019-10-04 11:04:03.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 3.14.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps/blob/master/todoapp/nodejs/package.json
+  detection_source: todoapp/nodejs/package.json
+  last_updated_by: Jordi Sola
+  last_updated_on: 2019-10-04 11:04:03.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps/blob/master/todoapp/nodejs/package.json
+  detection_source: todoapp/nodejs/package.json
+  last_updated_by: Jordi Sola
+  last_updated_on: 2019-10-04 11:04:03.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps
+  detection_source: Repo Metadata
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: '4.20'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/landofthelotophagi/DO180-apps/blob/master/nodejs-app/package.json
+  detection_source: nodejs-app/package.json
+  last_updated_by: Jordi Sola
+  last_updated_on: 2019-10-04 11:04:03.000000000 Z
